@@ -3,3 +3,4 @@ var/cache/
 var/session/
 var/locks/
 var/report/
+media/
