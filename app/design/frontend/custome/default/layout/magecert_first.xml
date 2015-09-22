@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<layout>
+    <magecert_first_index_index>
+        <reference name="content">
+            <block type="core/template" name="first_block" template="magecert/first/index.phtml" />
+        </reference>
+        <reference name="right">
+            <block type="core/template" name="right_block" template="magecert/first/right.phtml" />
+        </reference>
+    </magecert_first_index_index>
+</layout>

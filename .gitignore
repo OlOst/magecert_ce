@@ -1,4 +1,5 @@
 .idea/
+media/
 var/cache/
 var/session/
 var/locks/

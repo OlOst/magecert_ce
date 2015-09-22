@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<config>
+    <modules>
+        <Magecert_First>
+            <version>0.0.1</version>
+        </Magecert_First>
+    </modules>
+    <frontend>
+        <layout>
+            <updates>
+                <magecert_first>
+                    <file>magecert_first.xml</file>
+                </magecert_first>
+            </updates>
+        </layout>
+        <routers>
+            <magecert_first>
+                <use>standard</use>
+                <args>
+                    <module>Magecert_First</module>
+                    <frontName>first</frontName>
+                </args>
+            </magecert_first>
+        </routers>
+    </frontend>
+    <global>
+        <models>
+            <Magecert_First>
+                <resourceModel>MagecertFirst_resource</resourceModel>
+            </Magecert_First>
+            <MagecertFirst_resource>
+                <entities>
+                    <table_news>
+                        <table>Magecert_First_entities</table>
+                    </table_news>
+                </entities>
+            </MagecertFirst_resource>
+        </models>
+        <resources>
+            <magecert_first_setup>
+                <setup>
+                    <module>Magecert_First</module>
+                </setup>
+            </magecert_first_setup>
+        </resources>
+    </global>
+</config>
